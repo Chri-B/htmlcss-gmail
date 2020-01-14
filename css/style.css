@@ -1,0 +1,95 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+/* Stilizzazione body */
+body {
+    background-color: #ececec;
+    background-image: url("https://stevens-wood.com/sites/default/files/swatches/L30-Evening%20Notte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+}
+/* centraggio img gmail !!BRUTTO!! */
+.img {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+/* Stilizzazione prima sezione - Gmail */
+.titolo-1 {
+    display: inline;
+    margin-left: 20px;
+    color: white;
+}
+/* creazione 3 linee orizzontali  */
+.classe-2, main, footer {
+    border-top: 2px solid gray;
+    padding: 15px 0;
+}
+/* Stilizzazione testo footer */
+footer {
+    text-align: center;
+    color: white;
+}
+/* Stilizzazione Bottone VAI */
+.button {
+    font-size: 8px;
+    font-style: italic;
+    padding: 1px 10px;
+}
+/* Stilizzazione colore testo nel main */
+.testo-grigio {
+    color: gray;
+}
+/* h5 reso INLINE per avere stessa riga con differenti stili */
+h5{
+    display: inline;
+}
+/* stilizzazione testo grigio normale */
+.testo-grigio {
+    font-weight: normal;
+    color: gray;
+}
+/* creazione background con bordo */
+.testo-1 {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+/* creazione background con bordo per email già letta */
+.testo-2 {
+    background-color: #ececec;
+    border: 1px solid black;
+}
+/* h3 reso INLINE per avere stessa riga con differenti stili */
+h3 {
+    display: inline;
+    color: white;
+}
+/* creazione cerchio background attorno a 30 */
+.cerchio {
+    background: orange;
+    padding: 6px;
+    border-radius: 50%;
+}
+/* modifica padding per cerchio in modo che non interferisca con testo superiore */
+.unread{
+    padding-top: 15px;
+}
+/* stilizzazione seconda parte testo footer */
+.credits {
+    font-style: italic;
+    font-size: 10px;
+    font-weight: lighter;
+}
+/* inserimento piccolo margine sinistro da bordo a checkbox*/
+.elenco-mail {
+    margin-left: 5px;
+}
+/* inserimento margine superiore per staccare immagine GMAIL da bordo sup. */
+header {
+    margin-top: 15px;
+    padding: 10px auto;
+}
